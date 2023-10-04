@@ -42,3 +42,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+*.chopper.dart
+/pubspec.lock
+/ios/Podfile.lock
+/lib/env_vars.dart
+/android/app/google-services.json
+/ios/GoogleService-Info.plist
+/ios/Runner/GoogleService-Info.plist
