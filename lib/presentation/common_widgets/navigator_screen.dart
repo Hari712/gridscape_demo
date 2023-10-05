@@ -155,13 +155,6 @@ class MSBottomBar extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.start,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
-                            // Container(
-                            //   decoration: BoxDecoration(
-                            //       color: index == currentIndex ? AppColors.primary : Colors.transparent,
-                            //       borderRadius: BorderRadius.circular(7)),
-                            //   height: 5,
-                            //   width: 60,
-                            // ),
                             const SizedBox(
                               height: 10,
                             ),

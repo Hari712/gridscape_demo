@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       routeInformationParser: router.routeInformationParser,
       routerDelegate: router.routerDelegate,
       routeInformationProvider: router.routeInformationProvider,
-      title: "BAPS FMS",
+      title: "Gridscape Demo",
       theme: ThemeData.light().copyWith(
         primaryColor: AppColors.primary,
         scaffoldBackgroundColor: Colors.white,

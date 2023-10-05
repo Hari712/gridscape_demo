@@ -15,17 +15,6 @@ var router = GoRouter(
         GoRoute(
           path: MapScreen.path,
           builder: (context, state) => MapScreen(),
-          // routes: [
-          //   GoRoute(
-          //     path: WorkOrderScreen.id + "/:teamId",
-          //     builder: (context, state) {
-          //       String? teamId = (state.pathParameters["teamId"] ?? "");
-          //       return WorkOrderScreen(
-          //         isDashBoard: teamId,
-          //       );
-          //     },
-          //   ),
-          // ],
         ),
         GoRoute(
           path: FavouriteScreen.path,
